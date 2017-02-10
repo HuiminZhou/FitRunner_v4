@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">Huimin_Zhou_FitRunner</string>
+
+    <!--Welcome-->
+    <string name="text_input">Input Type</string>
+    <string name="text_activity">Activity Type</string>
+    <string name="btn_start">start</string>
+    <string name="btn_syn">syn</string>
+
+    <string-array name="entries_input">
+        <item>Manual Entry</item>
+        <item>GPS</item>
+        <item>Automatic</item>
+    </string-array>
+
+    <string-array name="entries_activity">
+        <item>Running</item>
+        <item>Walking</item>
+        <item>Standing</item>
+        <item>Cycling</item>
+        <item>Hiking</item>
+        <item>Downhill Skiing</item>
+        <item>Cross-Country Skiing</item>
+        <item>Snowboarding</item>
+        <item>Skating</item>
+        <item>Swimming</item>
+        <item>Mountain Biking</item>
+        <item>Wheelchair</item>
+        <item>Elliptical</item>
+        <item>Other</item>
+    </string-array>
+
+    <!--Welcome Sub Configure-->
+    <string name="text_date">Date and time</string>
+    <string name="text_dura">Duration</string>
+    <string name="text_dist">Distance</string>
+    <string name="text_calo">Calories</string>
+    <string name="text_hear">Heart Rate</string>
+    <string name="text_comm">Comment</string>
+    <string name="text_hint">How did it go?</string>
+    <string name="text_default">Reach Unexpected Place :)</string>
+
+    <!--Settings-->
+    <string name="text_settings1">Account Preferences</string>
+    <string name="text_settings1_sub1">Name, Email, Class, etc.</string>
+    <string name="text_settings1_sub1_desc">User Profile</string>
+    <string name="text_settings1_sub2">Privacy Setting</string>
+    <string name="text_settings1_sub2_desc">Posting your records anonymously</string>
+    <string name="text_settings2">Additional Settings</string>
+    <string name="text_settings2_sub1">Unit Preferences</string>
+    <string name="text_settings2_sub1_desc">Select the units</string>
+    <string name="text_settings2_sub2">Comments</string>
+    <string name="text_settings2_sub2_desc">Please input your comments</string>
+    <string name="text_settings3">Misc.</string>
+    <string name="text_settings3_sub1">Webpage</string>
+    <string name="text_settings3_sub1_desc">Dartmouth College</string>
+    <string name="text_settings3_sub1_web">http://web.cs.dartmouth.edu</string>
+
+    <string-array name="entries_unit">
+        <item>Metric (Kilometers)</item>
+        <item>Imperial (Miles)</item>
+    </string-array>
+
+    <string-array name="entries_unit_values">
+        <item>Metric</item>
+        <item>Imperi</item>
+    </string-array>
+
+    <string name="key_account_preferences">account_preferences</string>
+    <string name="key_name_etc">name_etc</string>
+    <string name="key_privacy_setting">privacy_setting</string>
+    <string name="key_additional_settings">additional_settings</string>
+    <string name="key_unit_preference">unit_preference</string>
+    <string name="key_comments">comments</string>
+    <string name="key_misc">misc</string>
+
+
+    <!--Profile-->
+    <string name="text_photo">Profile Photo</string>
+    <string name="text_upload">Change</string>
+    <string name="text_name">Name</string>
+    <string name="text_email">Email</string>
+    <string name="text_phone">Phone Number</string>
+    <string name="text_gender">Gender</string>
+    <string name="radio_female">Female</string>
+    <string name="radio_male">Male</string>
+    <string name="text_class">Class</string>
+    <string name="text_major">Major</string>
+    <string name="edit_name_hint">Your name here</string>
+    <string name="edit_email_hint">Your email here</string>
+    <string name="edit_phone_hint">Your phone number here</string>
+    <string name="edit_class_hint">e.g. 2016</string>
+    <string name="edit_major_hint">Your major</string>
+    <string name="btn_save">save</string>
+    <string name="btn_cancel">cancel</string>
+    <string name="btn_ok">ok</string>
+    
+    <string name="dialog_photo">Pick Profile Photo</string>
+
+    <string-array name="entries_photo">
+        <item>Take a Photo</item>
+        <item>Select from Gallery</item>
+    </string-array>
+
+    <!--Manual-->
+    <string name="actionbar">delete</string>
+    <string-array name="entries_item">
+        <item>Date</item>
+        <item>Time</item>
+        <item>Duration</item>
+        <item>Distance</item>
+        <item>Calories</item>
+        <item>Heart Rate</item>
+        <item>Comment</item>
+    </string-array>
+
+    <string name="notification">Return to FitRunner</string>
+
+    <string name="tag_history_fragment">unique_tag</string>
+</resources>

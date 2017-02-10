@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="@string/key_account_preferences"
+        android:title="@string/text_settings1" >
+
+        <Preference
+            android:key="@string/key_name_etc"
+            android:title="@string/text_settings1_sub1"
+            android:summary="@string/text_settings1_sub1_desc">
+            <intent android:action="Profile_Action"/>
+        </Preference>
+
+        <CheckBoxPreference
+            android:key="@string/key_privacy_setting"
+            android:title="@string/text_settings1_sub2"
+            android:summary="@string/text_settings1_sub2_desc" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="@string/key_additional_settings"
+        android:title="@string/text_settings2" >
+
+        <ListPreference
+            android:key="@string/key_unit_preference"
+            android:dialogTitle="@string/text_settings2_sub1"
+            android:entries="@array/entries_unit"
+            android:entryValues="@array/entries_unit_values"
+            android:summary="@string/text_settings2_sub1_desc"
+            android:title="@string/text_settings2_sub1" />
+
+        <EditTextPreference
+            android:key="@string/key_comments"
+            android:title="@string/text_settings2_sub2"
+            android:dialogTitle="@string/text_settings2_sub2"
+            android:summary="@string/text_settings2_sub2_desc"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="@string/key_misc"
+        android:title="@string/text_settings3" >
+
+        <PreferenceScreen
+            android:summary="@string/text_settings3_sub1_desc"
+            android:title="@string/text_settings3_sub1" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/text_settings3_sub1_web" />
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+</PreferenceScreen>
